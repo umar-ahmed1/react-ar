@@ -5,7 +5,7 @@ import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader'
 export default function Test() {
     const loader = new GLTFLoader()
     return (
-        <a-scene>
+        <a-scene embedded arjs>
             <a-box 
                 src="https://i.imgur.com/mYmmbrp.jpg" 
                 position="-1 0.5 -3" 
